@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✅투두리스트✅</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📄오늘 해야 할 일📄</h1>
+      <form id="input-form">
+        <input id="input-text" type="text" placeholder="   항목을 입력하시오"/>
+        <button id="input-button" onclick="addTodoList()">➕</button>
+      </form>
+      <section class="todo-section">
+        <h2>🟩항목🟩<span id="todo-count"></span></h2>
+        <ul id="todo-list"></ul>
+      </section>
+      <section class="done-section">
+        <h2>✅완료✅<span id="done-count"></span></h2>
+        <ul id="done-list"></ul>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
