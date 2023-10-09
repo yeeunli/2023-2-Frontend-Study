@@ -71,11 +71,11 @@
         </script>
         ```
 
- &nbsp;&nbsp;&nbsp; [설명] getElementById: html에 있는 target이라는 id를 갖고 있는 객체를 t변수에 리턴함
+        [설명] getElementById: html에 있는 target이라는 id를 갖고 있는 객체를 t변수에 리턴함
 
- &nbsp;&nbsp;&nbsp;&nbsp; -> t는 addEventListener()를 호출하고 첫 번째 인자로 event type(여기서는 click)을 가짐
+            -> t는 addEventListener()를 호출하고 첫 번째 인자로 event type(여기서는 click)을 가짐
 
- &nbsp;&nbsp;&nbsp;&nbsp; -> 이벤트가 수행되면 두 번째 인자의 함수가 호출되면서 함수 코드 실행됨
+            -> 이벤트가 수행되면 두 번째 인자의 함수가 호출되면서 함수 코드 실행됨
 
 ***
 
