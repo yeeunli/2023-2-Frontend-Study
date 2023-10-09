@@ -52,7 +52,7 @@
 - event 등록 방법
     1. inline(이벤트를 이벤트 대상의 태그 속성으로 지정)
 
-    ```<input type="button" onclick="alert('Hello world');" value="button" />```
+        ```<input type="button" onclick="alert('Hello world');" value="button" />```
 
     2. property listener
 
