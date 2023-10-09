@@ -72,6 +72,7 @@
         ```
 
         [설명] 
+        
             -> getElementById: html에 있는 target이라는 id를 갖고 있는 객체를 t변수에 리턴함
 
             -> t는 addEventListener()를 호출하고 첫 번째 인자로 event type(여기서는 click)을 가짐
