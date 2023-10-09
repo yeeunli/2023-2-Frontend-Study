@@ -53,6 +53,7 @@
     1. inline(이벤트를 이벤트 대상의 태그 속성으로 지정)
 
     ```<input type="button" onclick="alert('Hello world');" value="button" />```
+
     2. property listener
 
         이벤트 대상에 해당하는 객체의 프로퍼티로 이벤트를 등록
@@ -60,21 +61,21 @@
 
         여러 개의 이벤트 핸들러 등록 가능
 
-            ```
-            <input type="button" id="target" value="button" />
-            <script>
-                var t = document.getElementById('target');
-                t.addEventListener('click', function(event){
-                    alert('Hello world, '+event.target.value);
-                });
-            </script>
-            ```
-            
- &nbsp;&nbsp;&nbsp;[설명] getElementById: html에 있는 target이라는 id를 갖고 있는 객체를 t변수에 리턴함
+        ```
+        <input type="button" id="target" value="button" />
+        <script>
+            var t = document.getElementById('target');
+            t.addEventListener('click', function(event){
+                alert('Hello world, '+event.target.value);
+            });
+        </script>
+        ```
 
- &nbsp;&nbsp;&nbsp;&nbsp;-> t는 addEventListener()를 호출하고 첫 번째 인자로 event type(여기서는 click)을 가짐
+ &nbsp;&nbsp;&nbsp; [설명] getElementById: html에 있는 target이라는 id를 갖고 있는 객체를 t변수에 리턴함
 
- &nbsp;&nbsp;&nbsp;&nbsp;-> 이벤트가 수행되면 두 번째 인자의 함수가 호출되면서 함수 코드 실행됨
+ &nbsp;&nbsp;&nbsp;&nbsp; -> t는 addEventListener()를 호출하고 첫 번째 인자로 event type(여기서는 click)을 가짐
+
+ &nbsp;&nbsp;&nbsp;&nbsp; -> 이벤트가 수행되면 두 번째 인자의 함수가 호출되면서 함수 코드 실행됨
 
 ***
 
