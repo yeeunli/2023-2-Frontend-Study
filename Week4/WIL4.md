@@ -51,11 +51,15 @@
 - event handler: 이벤트가 발생했을 때 동작하는 코드
 - event 등록 방법
     1. inline(이벤트를 이벤트 대상의 태그 속성으로 지정)
-        <input type="button" onclick="alert('Hello world');" value="button" />
+
+    ```<input type="button" onclick="alert('Hello world');" value="button" />```
     2. property listener
+
         이벤트 대상에 해당하는 객체의 프로퍼티로 이벤트를 등록
     3. addEventListener()  ((추천 방식 👍👍👍))
+
         여러 개의 이벤트 핸들러 등록 가능
+
             ```
             <input type="button" id="target" value="button" />
             <script>
@@ -65,6 +69,7 @@
                 });
             </script>
             ```
+            
  &nbsp;&nbsp;&nbsp;[설명] getElementById: html에 있는 target이라는 id를 갖고 있는 객체를 t변수에 리턴함
 
  &nbsp;&nbsp;&nbsp;&nbsp;-> t는 addEventListener()를 호출하고 첫 번째 인자로 event type(여기서는 click)을 가짐
