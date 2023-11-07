@@ -15,30 +15,30 @@
 
 #### 어떤 구현을 해야할까?
 
-&nbsp;&nbsp;&nbsp;&nbsp;1. 사용자 입력 및 배열 리스트 처리하기
-&nbsp;&nbsp;&nbsp;&nbsp;2. React Lifecycle 제어와 API 호출
-&nbsp;&nbsp;&nbsp;&nbsp;3. React 개발자 도구 사용하기
-&nbsp;&nbsp;&nbsp;&nbsp;4. React 컴포넌트 트리에 전역 데이터 공급하기
+1. 사용자 입력 및 배열 리스트 처리하기
+2. React Lifecycle 제어와 API 호출
+3. React 개발자 도구 사용하기
+4. React 컴포넌트 트리에 전역 데이터 공급하기
 
 #### 1️⃣ 사용자 입력 및 배열 리스트 처리하기
 
-&nbsp;&nbsp;&nbsp;&nbsp;- 리스트 렌더링
-&nbsp;&nbsp;&nbsp;&nbsp;- 데이터 추가
-&nbsp;&nbsp;&nbsp;&nbsp;- 데이터 삭제
-&nbsp;&nbsp;&nbsp;&nbsp;- 데이터 수정
+- 리스트 렌더링
+- 데이터 추가
+- 데이터 삭제
+- 데이터 수정
 
 #### 2️⃣ React Lifecycle 제어와 API 호출
 
-&nbsp;&nbsp;&nbsp;&nbsp;- useEffect로 React Lifecycle을 제어해보자
-&nbsp;&nbsp;&nbsp;&nbsp;- React에서 API를 어떻게 호출할까?
+- useEffect로 React Lifecycle을 제어해보자
+- React에서 API를 어떻게 호출할까?
 
 #### 3️⃣ React 개발자 도구 사용하기
 
-&nbsp;&nbsp;&nbsp;&nbsp;: 최적화 과정에서 필요 !! 👉🏻 useMemo, React.memo, useCallback 
+: 최적화 과정에서 필요 !! 👉🏻 useMemo, React.memo, useCallback 
 
 #### 4️⃣ React 컴포넌트 트리에 전역 데이터 공급하기
 
-&nbsp;&nbsp;&nbsp;&nbsp;- context를 사용해 컴포넌트 트리에 데이터를 공급해보자
+- context를 사용해 컴포넌트 트리에 데이터를 공급해보자
 
 
 ***
